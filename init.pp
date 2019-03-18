@@ -1,10 +1,9 @@
-class accounts {
+@accounts::virtual {
+  '#{user.human_readable_identifier}':
+  uid             =>  #{user.user_id},
+  realname        =>  '#{user.first_name} #{user.last_name}',
+  sshkeytype      =>  'ssh-rsa',
+  sshkey          =>  '#{user.ssh_key.try(:sub!, 'ssh-rsa ', '')}'
+}
   
-  @accounts::virtual { 'Max.Mustermann':
-    uid             =>  4000,
-    realname        =>  'Max Mustermann',
-    sshkeytype      =>  'ssh-rsa',
-    sshkey          =>  ''
-  }
-
 }
