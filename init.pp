@@ -1,6 +1,6 @@
-@accounts::virtual { 'Maxee.Mustermann}':
-  uid             =>  4002,
-  realname        =>  'Maxee} #{Mustermann',
+@accounts::virtual { 'Ma.Mustermann}':
+  uid             =>  4003,
+  realname        =>  'Ma} #{Mustermann',
   sshkeytype      =>  'ssh-rsa',
   sshkey          =>  ''
 }
