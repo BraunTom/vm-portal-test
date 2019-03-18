@@ -1,7 +1,7 @@
 @accounts::virtual {
-  '#{Maxe.Mustermann}':
-  uid             =>  #{4001},
-  realname        =>  '#{Maxe} #{Mustermann}',
+  '#{Maxee.Mustermann}':
+  uid             =>  #{4002},
+  realname        =>  '#{Maxee} #{Mustermann}',
   sshkeytype      =>  'ssh-rsa',
   sshkey          =>  '#{}'
 }
