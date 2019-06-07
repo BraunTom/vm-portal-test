@@ -20,17 +20,10 @@ class accounts {
   sshkeytype      =>  'ssh-rsa',
   sshkey          =>  ''
 }
-
-@accounts::virtual { 'Test1':
+  
+    @accounts::virtual { 'Rn.Daase':
   uid             =>  4003,
-  realname        =>  'Björn Daase',
-  sshkeytype      =>  'ssh-rsa',
-  sshkey          =>  ''
-}
-
-@accounts::virtual { 'Test1':
-  uid             =>  4004,
-  realname        =>  'Leon Bein',
+  realname        =>  'rn Daase',
   sshkeytype      =>  'ssh-rsa',
   sshkey          =>  ''
 }
