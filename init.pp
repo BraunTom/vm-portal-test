@@ -28,4 +28,11 @@ class accounts {
   sshkey          =>  ''
 }
   
+    @accounts::virtual { 'Leon.Bein':
+  uid             =>  4004,
+  realname        =>  'Leon Bein',
+  sshkeytype      =>  'ssh-rsa',
+  sshkey          =>  ''
+}
+  
 }
