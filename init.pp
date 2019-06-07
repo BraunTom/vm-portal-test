@@ -22,14 +22,14 @@ class accounts {
 }
 
 @accounts::virtual { 'Test1':
-  uid             =>  4002,
+  uid             =>  4003,
   realname        =>  'Björn Daase',
   sshkeytype      =>  'ssh-rsa',
   sshkey          =>  ''
 }
 
 @accounts::virtual { 'Test1':
-  uid             =>  4002,
+  uid             =>  4004,
   realname        =>  'Leon Bein',
   sshkeytype      =>  'ssh-rsa',
   sshkey          =>  ''
